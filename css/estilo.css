@@ -1,0 +1,28 @@
+* { margin: 0%; padding: 0%; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { background-color: #acfcac; }
+
+body header { max-width: 100%; padding: 20px; background-color: green; border-radius: 20px; }
+
+body header h1 { font-family: Georgia, "Times New Roman", Times, serif; color: white; text-align: center; }
+
+body header h1:hover { color: black; }
+
+body main { margin-top: 50px; }
+
+body main .subtitulo { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-family: Georgia, "Times New Roman", Times, serif; color: #f70606; font-size: 1.8rem; }
+
+body main p { font-size: 1.5rem; text-align: justify; padding: 10px; }
+
+body main .venecia { max-width: 700px; height: auto; border-radius: 40px; }
+
+body main .camino { max-width: 700px; height: auto; border: 40px; }
+
+body main .subtitulo2 { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-family: Georgia, "Times New Roman", Times, serif; color: #f70606; font-size: 1.8rem; }
+
+body footer { background-color: green; padding: 20px; margin-top: 15px; }
+
+body footer h2 { text-align: center; font-family: title-font; }
+
+body footer h2:hover { color: red; }
+/*# sourceMappingURL=estilo.css.map */

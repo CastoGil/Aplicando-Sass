@@ -1,0 +1,74 @@
+@import "variable";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}   
+
+body{
+    background-color: rgb(172, 252, 172);
+    header{
+        max-width: 100%;
+        padding: 20px;
+        background-color: $color;
+        border-radius: 20px;
+        h1{
+            font-family:$title-font;
+            color: white;
+            text-align: center;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+    main{
+        
+        margin-top: 50px;
+        .subtitulo{
+            justify-content: center;
+            text-align: center;
+            font-family: $title-font;
+            color: rgb(247, 6, 6);
+            font-size: 1.8rem;
+        }
+        p{ 
+            font-size: 1.5rem;
+            text-align: justify;
+            padding: 10px;
+            
+        }
+        .venecia{
+                
+            max-width: 700px;
+            height: auto;
+            border-radius: 40px;
+        }
+        .camino{
+            max-width: 700px;
+            height: auto;
+            border: 40px;
+        }
+        .subtitulo2{
+            justify-content: center;
+            text-align: center;
+            font-family: $title-font;
+            color: rgb(247, 6, 6);
+            font-size: 1.8rem;
+        }
+    }
+    footer{
+        background-color: $color;
+        padding: 20px;
+        margin-top: 15px;
+        h2{
+            text-align: center;
+            font-family: title-font;
+            &:hover{
+                color: rgb(255, 0, 0);
+            }
+        }
+    }
+    
+    
+}
